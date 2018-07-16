@@ -1,7 +1,7 @@
 @charset "utf-8"
 *{}
 
-.header{
+div#header{
 	width: 800px;
 	height: 200px;
 	background-image: url("texture/libtitle.png");
@@ -10,7 +10,18 @@
 	transform: translateX(-50%);
 }
 
+div#menu{
+	width: 150px;
+	height: 800px;
+	background-image: url("texture/flower-back0137.jpg");
+	position: absolute;
+	top: 300px;
+	right: 20px;
+	font-size: 15pt;
+}
+
 p{
+	box-shadow: 0pt -10pt 10pt -5pt #92FCFC inset, 0pt 10pt 10pt -3pt #92FCFC;
 	font-family: 'Mv Boli','Segoe Print',sans-serif;
 	font-size: 20pt;
 	position: absolute;
@@ -33,4 +44,14 @@ p{
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 40pt;
+}
+
+.imagesize{
+	width: 200;
+}
+
+.imageposition{
+	position: absolute;
+	top: 400px;
+	left: 100px;
 }
