@@ -1,10 +1,10 @@
 @charset "utf-8"
 *{}
 
-.sample{
-	background-image: url("image/libtitle.jpg");
+h1{
+	background-image: url("texture/libtitle.jpg");
 	font-size: 40pt;
-	font-family: "fantasy";
+	font-family: 'Mv Boli','Segoe Print',sans-serif;
 	text-align: center;
 }
 
@@ -13,3 +13,13 @@ p{
 	font-size: 20pt;
 }
 
+@font-face{
+	font-family: 'WebFont';
+	src:url('font/HuiFont109.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.WebFontClass{
+	font-family: 'WebFont';
+}
