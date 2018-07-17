@@ -73,9 +73,7 @@ figcaption{
 	font-family: 'Mv Boli','Segoe Print',sans-serif;
 }
 
-li#top{}
-li#profile{}
-li#list{}
-li#access{}
-li#log{}
-li#reference{}
+li:hover{
+	color: blue;
+	text-decoration: underline;
+}
