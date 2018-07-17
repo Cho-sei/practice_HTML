@@ -1,9 +1,9 @@
-document.getElementById("top").onclick = function(){
-	alert("こんにちわ")
+function menu_initialize(id){
+	document.getElementById(id).style.color = "black";
+	document.getElementById(id).style.textDecoration = "none";
 }
-document.getElementById("top").onmouseover = function(){
-	document.getElementById("top").style.color = "blue";
-}
-document.getElementById("top").onmouseout = function(){
-	document.getElementById("top").style.color = "black";
+
+function changecousor(id){
+	document.getElementById(id).style.color = "blue";
+	document.getElementById(id).style.textDecoration = "underline";
 }
