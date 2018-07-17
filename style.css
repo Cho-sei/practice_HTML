@@ -69,6 +69,13 @@ figure img{
 
 figcaption{
 	text-align: center;
-	font-size: 80%;
+	font-size: 100%;
 	font-family: 'Mv Boli','Segoe Print',sans-serif;
 }
+
+li#top{}
+li#profile{}
+li#list{}
+li#access{}
+li#log{}
+li#reference{}
